@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <>
       <div className="bg-[#17033B] footerbg bg-contain bg-no-repeat bg-left-bottom">
-        <div className="w-[1280px] mx-auto">
-        <div className=" flex border-b-[2px] border-[#4949495E]">
-          <div className="w-[33%] pt-5 pr-10">
-            <img src="./public/img/logo.png" alt="" />
+        <div className="md:w-[1280px] w-[95%] mx-auto">
+        <div className=" flex flex-wrap sm:flex-nowrap border-b-[2px] border-[#4949495E]">
+          <div className="sm:w-[33%] w-full pt-5 pr-10">
+            <img src="./public/img/logo.png" className="mx-auto sm:mx-0" alt="" />
             <p className="text-sm font-poppins text-white leading-6 pt-5">
               Association for Gender Awareness and Human Empowerment (AGAHE) is
               a Non-Government Social Development Organization established in
@@ -15,7 +15,7 @@ export default function Footer() {
               Province level.
             </p>
           </div>
-          <div className="w-[33%] pt-7 pl-5">
+          <div className="sm:w-[33%] w-full pt-7 sm:pl-5">
             <h1 className="font-bold text-sm text-white font-poppins  pt-5">
               For Information & Queries
             </h1>
@@ -43,7 +43,7 @@ export default function Footer() {
               <h1 className="text-sm font-poppins text-white">042-35957916</h1>
             </div>
           </div>
-          <div className="w-[30%] pt-5 bg-[#E96F2D] p-10 ml-10 -mt-16">
+          <div className="sm:w-[33%] w-full pt-5 bg-[#E96F2D] md:p-10 p-5 mt-10 sm:ml-10 sm:-mt-16">
             <h1 className="font-poppins font-semibold text-2xl text-white">
               Get In tuch
             </h1>
@@ -90,11 +90,10 @@ export default function Footer() {
             </form>
           </div>
         </div>
-        <div className=" flex justify-between items-center py-2">
-            <h1 className="text-white font-poppins text-sm">Copyrights © 2024 All Rights Reserved</h1>
-            <h1 className="text-white font-poppins text-sm">Powered by Websouls</h1>
+        <div className=" flex flex-wrap sm:flex-nowrap justify-between items-center py-2">
+            <h1 className="text-white font-poppins text-sm mx-auto sm:mx-0">Copyrights © 2024 All Rights Reserved</h1>
+            <h1 className="text-white font-poppins text-sm mx-auto sm:mx-0">Powered by Websouls</h1>
         </div>
-
         </div>
       </div>
     </>

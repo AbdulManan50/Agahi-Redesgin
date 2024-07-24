@@ -3,40 +3,13 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-export default function Header() { 
-  gsap
-  useGSAP(() => {
-    const tl = gsap.timeline();
-    tl.from(".socialicon > span", {
-      x:40,
-      opacity:0,
-      duration:1,
-      stagger:0.3,
-    });
-    tl.from(".logo", {
-      y:-30,
-      opacity:0,
-      duration:1,
-      stagger:0.3,
-    });
-    tl.from(".nav>li", {
-      y:-30,
-      opacity:0,
-      duration:1,
-      stagger:0.3,
-    });
-  });
-
+export default function Header() {
   return (
     <>
       <div className="bg-[#FFFAF8] py-1">
-        <div
-        
-          className="socialicon flex gap-3 text-2xl justify-end w-[1280px] mx-auto px-20"
-        >
+        <div className="socialicon flex gap-3 text-2xl justify-end md:w-[1280px] w-[95%]  mx-auto md:px-20">
           <span className="text-[#3B5998]">
             <FaSquareFacebook />
           </span>
@@ -51,12 +24,12 @@ export default function Header() {
           </span>
         </div>
       </div>
-      <div className=" w-[1280px] mx-auto flex justify-between items-center">
+      <div className="md:w-[1280px] w-[95%]  mx-auto flex justify-between items-center">
         <div>
           <img className="logo w-[120px]" src="./public/img/logo.png" alt="" />
         </div>
         <div className="flex gap-10 items-center">
-          <ul className="nav font-poppins flex font-medium text-lg text-[#422675] gap-10">
+          <ul className="nav font-poppins md:flex font-medium text-lg text-[#422675] md:gap-10  gap-5 hidden">
             <li>
               <a href="#"></a>Home
             </li>
@@ -76,7 +49,10 @@ export default function Header() {
               <a href="#"></a>Get Invloved
             </li>
           </ul>
-          <button className="nav-button px-6 py-2 bg-[#EC642D] text-white rounded-full font-poppins">
+          <div className="md:hidden flex">
+            <GiHamburgerMenu className="text-3xl text-[#422675] " />
+          </div>
+          <button className="nav-button hidden sm:flex md:px-6 px-3 py-1.5  md:py-2 bg-[#EC642D] text-white rounded-full font-poppins">
             Contact Us
           </button>
         </div>
