@@ -87,7 +87,7 @@ export default function App() {
         <div className="md:w-[52%] sm:w-[40%] w-full">
           <img
             className="max-w-[100%] md:-ml-[230px] ml-0"
-            src="./public/img/asset 8.png"
+            src="/img/asset 8.png"
             alt=""
           />
         </div>
@@ -105,13 +105,13 @@ export default function App() {
               <div className="sm:w-[33%] w-full flex flex-col sm:gap-16 gap-8">
                 <div
                   style={{
-                    backgroundImage: "url('./public/img/asset 27.png')",
+                    backgroundImage: "url('/img/asset 27.png')",
                   }}
                   className="bg-[#407F46] boxShadow transition-all duration-200 flex sm:flex-row flex-col  sm:gap-4 gap-0 items-center sm:items-start px-5 py-[10px]  bg-no-repeat bg-right bg-contain border-[1px] border-[#b1ddb7] "
                 >
                   <img
                     className="md:w-[18%] w-[10%]"
-                    src="./public/img/asset 9.png"
+                    src="/img/asset 9.png"
                     alt=""
                   />
                   <h1 className="md:text-xl text-sm text-white md:font-medium font-normal font-poppins md:leading-6">
@@ -120,13 +120,13 @@ export default function App() {
                 </div>
                 <div
                   style={{
-                    backgroundImage: "url('./public/img/asset 28.png')",
+                    backgroundImage: "url('/img/asset 28.png')",
                   }}
                   className="bg-[#C5192D] boxShadow transition-all duration-200 flex sm:flex-row flex-col   px-5 md:py-[10px] sm:py-4 py-2 sm:gap-4  gap-0 bg-no-repeat bg-right bg-contain items-center border-[1px] border-[#6f0b17]"
                 >
                   <img
                     className="md:w-[12%] w-[10%]"
-                    src="./public/img/asset 10.png"
+                    src="/img/asset 10.png"
                     alt=""
                   />
                   <h1 className="md:text-xl text-sm text-white md:font-medium font-normal font-poppins md:leading-6">
@@ -135,13 +135,13 @@ export default function App() {
                 </div>
                 <div
                   style={{
-                    backgroundImage: "url('./public/img/asset 29.png')",
+                    backgroundImage: "url('/img/asset 29.png')",
                   }}
                   className="bg-[#4C9F38] boxShadow transition-all duration-200 flex sm:flex-row flex-col px-5 md:py-[10px] py-1 sm:gap-4 gap-0 bg-no-repeat bg-right bg-contain items-center border-[1px] border-[#215914]"
                 >
                   <img
                     className="max-w-[13%]"
-                    src="./public/img/asset 11.png"
+                    src="/img/asset 11.png"
                     alt=""
                   />
                   <h1 className="md:text-xl text-sm text-white md:font-medium font-normal font-poppins md:leading-6">
@@ -153,7 +153,7 @@ export default function App() {
                 <div className="flex flex-col justify-start items-center text-center border-[2px] border-[#407f46] rounded-full md:px-7 px-5  md:py-16 sm:py-3 py-14 bg-[#F6F4F8] ">
                   <img
                     className="w-[30%] md:w-[25%]"
-                    src="./public/img/asset 12.png"
+                    src="/img/asset 12.png"
                     alt=""
                   />
                   <h1 className="font-poppins md:text-xl text-sm text-[#407f46] font-medium">
@@ -168,13 +168,13 @@ export default function App() {
               <div className="sm:w-[33%] w-full flex flex-col sm:gap-16 gap-8">
                 <div
                   style={{
-                    backgroundImage: "url('./public/img/asset 30.png')",
+                    backgroundImage: "url('/img/asset 30.png')",
                   }}
                   className="bg-[#26BDE2] flex sm:flex-row flex-col  px-5 sm:py-[10px] py-2 sm:gap-4 gap-0  bg-no-repeat bg-right bg-contain items-center border-[1px] border-[#1787a3] boxShadow transition-all duration-200"
                 >
                   <img
                     className="max-w-[13%]"
-                    src="./public/img/asset 13.png"
+                    src="/img/asset 13.png"
                     alt=""
                   />
                   <h1 className="md:text-xl text-sm text-white md:font-medium font-normal font-poppins md:leading-6">
@@ -183,13 +183,13 @@ export default function App() {
                 </div>
                 <div
                   style={{
-                    backgroundImage: "url('./public/img/asset 31.png')",
+                    backgroundImage: "url('/img/asset 31.png')",
                   }}
                   className="bg-[#136A9F] flex sm:flex-row flex-col  px-5 md:py-[10px] sm:py-4 sm:gap-4 py-1 gap-0 bg-no-repeat bg-right bg-contain items-center border-[1px] border-[#0f4f76] boxShadow transition-all duration-200"
                 >
                   <img
                     className="w-[11%]"
-                    src="./public/img/asset 14.png"
+                    src="/img/asset 14.png"
                     alt=""
                   />
                   <h1 className="md:text-xl text-sm text-white md:font-medium font-normal font-poppins md:leading-6">
@@ -198,13 +198,13 @@ export default function App() {
                 </div>
                 <div
                   style={{
-                    backgroundImage: "url('./public/img/asset 29.png')",
+                    backgroundImage: "url('/img/asset 29.png')",
                   }}
                   className="bg-[#58BA47] flex sm:flex-row flex-col  px-5 md:py-[10px] sm:py-4 sm:gap-4 gap-0  bg-no-repeat py-1 bg-right bg-contain items-center border-[1px] border-[#37782CFF] boxShadow transition-all duration-200"
                 >
                   <img
                     className="w-[13%]"
-                    src="./public/img/asset 15.png"
+                    src="/img/asset 15.png"
                     alt=""
                   />
                   <h1 className="md:text-xl text-sm text-white md:font-medium font-normal font-poppins md:leading-6">
@@ -217,13 +217,13 @@ export default function App() {
               <div className="sm:w-[32%] w-full">
                 <div
                   style={{
-                    backgroundImage: "url('./public/img/asset 30.png')",
+                    backgroundImage: "url('/img/asset 30.png')",
                   }}
                   className="bg-[#DDA83A] flex sm:flex-row flex-col  px-5 md:py-[10px] sm:gap-4 gap-0 py-1 bg-no-repeat bg-right bg-contain items-center border-[1px] border-[#86621A] boxShadow transition-all duration-200"
                 >
                   <img
                     className="max-w-[13%]"
-                    src="./public/img/asset 16.png"
+                    src="/img/asset 16.png"
                     alt=""
                   />
                   <h1 className="md:text-xl text-sm text-white md:font-medium font-normal font-poppins md:leading-6">
@@ -245,7 +245,7 @@ export default function App() {
         <div className=" flex flex-col sm:w-[24%] w-full">
           <img
             className="md:px-20 sm:px-5 px-28 md:py-7 py-3 border-[2px] border-[#422675]"
-            src="./public/img/asset 37.svg"
+            src="/img/asset 37.svg"
             alt=""
           />
           <h1 className="bg-[#422675] font-poppins md:text-2xl sm:text-xs text-lg font-semibold px-[10px] py-[10px] text-white text-center ">
@@ -255,7 +255,7 @@ export default function App() {
         <div className=" flex flex-col sm:w-[24%] w-full">
           <img
             className="md:px-20 sm:px-8 px-28 md:py-4 py-3 border-[2px] border-[#E96F2D]"
-            src="./public/img/asset 38.svg"
+            src="/img/asset 38.svg"
             alt=""
           />
           <h1 className="bg-[#E96F2D] font-poppins md:text-2xl sm:text-xs text-lg font-semibold px-[10px] py-[10px] text-white text-center">
@@ -265,7 +265,7 @@ export default function App() {
         <div className=" flex flex-col sm:w-[24%] w-full">
           <img
             className="md:px-20 sm:px-5 px-28 md:py-7 py-3 border-[2px] border-[#422675]"
-            src="./public/img/asset 39.svg"
+            src="/img/asset 39.svg"
             alt=""
           />
           <h1 className="bg-gradient-to-r from-[#E96F2D] to-[#422675] font-poppins md:text-2xl sm:text-xs text-lg font-semibold px-[10px] py-[10px] text-white text-center">
@@ -289,7 +289,7 @@ export default function App() {
               <div className="w-[50%]">
                 <img
                   className="w-[100%] h-[100%]"
-                  src="./public/img/asset17.png"
+                  src="/img/asset17.png"
                   alt=""
                 />
               </div>
@@ -310,7 +310,7 @@ export default function App() {
               <div className="w-[50%]">
                 <img
                   className="w-[100%] h-[100%]"
-                  src="./public/img/asset 19.png"
+                  src="/img/asset 19.png"
                   alt=""
                 />
               </div>
@@ -335,7 +335,7 @@ export default function App() {
               <div className="w-[50%]">
                 <img
                   className="w-[100%] h-[100%]"
-                  src="./public/img/asset 18.png"
+                  src="/img/asset 18.png"
                   alt=""
                 />
               </div>
@@ -352,7 +352,7 @@ export default function App() {
               <div className="w-[50%]">
                 <img
                   className="w-[100%] h-[100%]"
-                  src="./public/img/asset 20.png"
+                  src="/img/asset 20.png"
                   alt=""
                 />
               </div>

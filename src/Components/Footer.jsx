@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="md:w-[1280px] w-[95%] mx-auto">
         <div className=" flex flex-wrap sm:flex-nowrap border-b-[2px] border-[#4949495E]">
           <div className="sm:w-[33%] w-full pt-5 pr-10">
-            <img src="./public/img/logo.png" className="mx-auto sm:mx-0" alt="" />
+            <img src="/img/logo.png" className="mx-auto sm:mx-0" alt="" />
             <p className="text-sm font-poppins text-white leading-6 pt-5">
               Association for Gender Awareness and Human Empowerment (AGAHE) is
               a Non-Government Social Development Organization established in
@@ -20,7 +20,7 @@ export default function Footer() {
               For Information & Queries
             </h1>
             <div className="flex justify-start items-center gap-3 pt-3">
-              <img src="./public/img/asset 40.svg" alt="" />
+              <img src="/img/asset 40.svg" alt="" />
               <h1 className="text-sm font-poppins text-white">
                 info@agahe.org.pk
               </h1>
@@ -29,17 +29,17 @@ export default function Footer() {
               For For Suggestions & Complaints
             </h1>
             <div className="flex justify-start items-center gap-3 pt-5">
-              <img src="./public/img/asset 41.svg" alt="" />
+              <img src="/img/asset 41.svg" alt="" />
               <h1 className="text-sm font-poppins text-white">
                 complaints@agahe.org.pk
               </h1>
             </div>
             <div className="flex justify-start items-center gap-3 pt-5">
-              <img src="./public/img/asset 42.svg" alt="" />
+              <img src="/img/asset 42.svg" alt="" />
               <h1 className="text-sm font-poppins text-white">0332-3030022</h1>
             </div>
             <div className="flex justify-start items-center gap-3 pt-5">
-              <img src="./public/img/asset 43.svg" alt="" />
+              <img src="/img/asset 43.svg" alt="" />
               <h1 className="text-sm font-poppins text-white">042-35957916</h1>
             </div>
           </div>

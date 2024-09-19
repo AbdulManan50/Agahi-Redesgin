@@ -18,7 +18,7 @@ export default function About() {
             <div className="w-[18%]">
               <img
                 className="w-[345px] md:p-5 p-2 border-[2px] border-[#D4D4D4]"
-                src="./public/img/vision.svg"
+                src="/img/vision.svg"
                 alt=""
               />
             </div>
@@ -38,7 +38,7 @@ export default function About() {
             <div className="w-[18%]">
               <img
                 className="w-[350px] md:p-5 py-2 px-1 border-[2px] border-[#D4D4D4]"
-                src="./public/img/mission.png"
+                src="/img/mission.png"
                 alt=""
               />
             </div>
@@ -58,7 +58,7 @@ export default function About() {
             <div className="w-[18%] md:-mt-10 mt-7">
               <img
                 className="w-[350px] md:p-5 p-2 border-[1px] border-white"
-                src="./public/img/Vector.svg"
+                src="/img/Vector.svg"
                 alt=""
               />
             </div>
@@ -86,7 +86,7 @@ export default function About() {
             <div className="w-[18%] md:-mt-10 mt-7">
               <img
                 className="w-[350px] md:p-5 p-2 border-[1px] border-white"
-                src="./public/img/object.svg"
+                src="/img/object.svg"
                 alt=""
               />
             </div>

@@ -26,44 +26,30 @@ export default function Slider() {
             delay: 1500,
             disableOnInteraction: false,
           }}
-          // breakpoints={{
-          //   // when window width is >= 640px
-          //   426: {
-          //     slidesPerView: 3,
-          //   },
-          //   // when window width is >= 768px
-          //   769: {
-          //     slidesPerView: 5,
-          //   },
-          //   // when window width is >= 1024px
-          //   1024: {
-          //     slidesPerView: 7,
-          //   },
-          // }}
         >
           <SwiperSlide>
-            <img src="./public/img/asset 7.png" alt="" />
+            <img src="/img/asset 7.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./public/img/asset 6.png" alt="" />
+            <img src="/img/asset 6.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./public/img/asset 5.png" alt="" />
+            <img src="/img/asset 5.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./public/img/asset 4.png" alt="" />
+            <img src="/img/asset 4.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./public/img/asset 3.png" alt="" />
+            <img src="/img/asset 3.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./public/img/asset 2.png" alt="" />
+            <img src="/img/asset 2.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./public/img/asset 1.png" alt="" />
+            <img src="/img/asset 1.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./public/img/asset 7.png" alt="" />
+            <img src="/img/asset 7.png" alt="" />
           </SwiperSlide>
 
         </Swiper>
